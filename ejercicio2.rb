@@ -13,5 +13,6 @@ print "#{nombres_p}\n\n"
 nombres_l = nombres.map(&:length)
 print "#{nombres_l}\n\n"
 
+print "#{nombres}\n\n"
 nombres_v = nombres.map { |el| el.gsub(/[aeiou]/i, '') }
 print "#{nombres_v}\n\n"
